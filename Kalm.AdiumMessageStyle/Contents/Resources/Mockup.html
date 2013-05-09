@@ -4,68 +4,67 @@
 		<title>Message Style Mockup (2torial)</title>
 		<link rel="stylesheet" type="text/css" href="Main.css">
 	</head>
-	<body style="width: 500px; font-family: Helvetica; font-size: 13px">
+	<body style="font-family: Helvetica; font-size: 13px">
 
-		<div class="block incoming context">
-			<div class="avatar">
-				<img src="Incoming/buddy_icon.png" alt="icon" />
-			</div>
-			<div class="content">
-				<div class="sender">Jeroen van Meerendonk</div>
-				<div class="message">
-					<div class="time">16:35</div>
-					<div class="text">
-						Hola, este es un log de mentira.
-					</div>
+		<div class="block incoming context showIcons">
+			<img src="Incoming/buddy_icon.png" alt="icon" class="avatar" />
+			<div class="sender">Jeroen van Meerendonk</div>
+			<div class="message">
+				<div class="time">16:35</div>
+				<div class="text">
+					Hola, este es un log de mentira.
 				</div>
-				<div id="insert"></div>
-				<div class="message">
-					<div class="time">16:35</div>
-					<div class="text">
-						¿Qué tal?
-					</div>
-				</div>
-				<div id="insert"></div>
 			</div>
+			<div id="insert"></div>
+			<div class="message">
+				<div class="time">16:35</div>
+				<div class="text">
+					¿Qué tal?
+				</div>
+			</div>
+			<div id="insert"></div>
 		</div>
 
 		<div class="block outgoing">
-			<div class="avatar">
-				<img src="Outgoing/buddy_icon.png" alt="icon" />
-			</div>
-			<div class="content">
-				<div class="sender">Echo Jeroen</div>
-				<div class="message">
-					<div class="time">16:35</div>
-					<div class="text">
-						Bien, y tú?
-					</div>
+			<div class="sender">Echo Jeroen</div>
+			<div class="message">
+				<div class="time">16:35</div>
+				<div class="text">
+					http://www.youtube.com/watchv=IWuOYZHNjUhttp://www.youtube.com/watchv=IWuOYZHNjU
 				</div>
-				<div id="insert"></div>
 			</div>
+			<div id="insert"></div>
 		</div>
 
-		<div class="block incoming">
-			<div class="avatar">
-				<img src="Incoming/buddy_icon.png" alt="icon" />
-			</div>
-			<div class="content">
-				<div class="sender">Jeroen van Meerendonk</div>
-				<div class="message">
-					<div class="time">16:35</div>
-					<div class="text">
-						Muy bien, gracias. Parecemos el viejo de la peli de Jurassic Park.
-					</div>
+		<div class="block incoming showIcons">
+			<img src="Incoming/buddy_icon.png" alt="icon" class="avatar" />
+			<div class="sender">Jeroen van Meerendonk</div>
+			<div class="message">
+				<div class="time">16:35</div>
+				<div class="text">
+					Muy bien, gracias. Parecemos el viejo de la peli de Jurassic Park.
 				</div>
-				<div id="insert"></div>
-				<div class="message">
-					<div class="time">16:35</div>
-					<div class="text">
-						El que hace la presentación.
-					</div>
-				</div>
-				<div id="insert"></div>
 			</div>
+			<div id="insert"></div>
+			<div class="message">
+				<div class="time">16:35</div>
+				<div class="text">
+					El que hace la presentación.
+				</div>
+			</div>
+			<div id="insert"></div>
+			<div class="message">
+				<div class="time">16:35</div>
+				<div class="text">
+					El que hace la presentación.
+				</div>
+			</div>
+			<div id="insert"></div>
+		</div>
+
+		<div class="block status away">
+			<span class="time">16:65</span>
+			<div class="message">Jeroen went away y necesita un mensaje más largo para ver qué pasa.</div>
 		</div>
 
 		<div class="block status away">
@@ -74,28 +73,23 @@
 		</div>
 
 		<div class="block outgoing">
-			<div class="avatar">
-				<img src="Outgoing/buddy_icon.png" alt="icon" />
-			</div>
-			<div class="content">
-				<div class="sender">Echo Jeroen</div>
-				<div class="message">
-					<div class="time">16:35</div>
-					<div class="text">
-						Ahá.
-					</div>
+			<div class="sender">Echo Jeroen</div>
+			<div class="message">
+				<div class="time">16:35</div>
+				<div class="text">
+					Ahá.
 				</div>
-				<div id="insert"></div>
-				<div class="message">
-					<div class="time">16:35</div>
-					<div class="text">
-						Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio.
-						Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna
-						nibh, viverra non, semper suscipit, posuere a, pede.
-					</div>
-				</div>
-				<div id="insert"></div>
 			</div>
+			<div id="insert"></div>
+			<div class="message">
+				<div class="time">16:35</div>
+				<div class="text">
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio.
+					Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna
+					nibh, viverra non, semper suscipit, posuere a, pede.
+				</div>
+			</div>
+			<div id="insert"></div>
 		</div>
 
 		<div class="block status fileTransferStarted">
@@ -104,26 +98,22 @@
 		</div>
 
 		<div class="block incoming">
-			<div class="avatar">
-				<img src="Incoming/buddy_icon.png" alt="icon" />
-			</div>
-			<div class="content">
-				<div class="sender">Jeroen van Meerendonk</div>
-				<div class="message">
-					<div class="time">16:35</div>
-					<div class="text">
-						Bien. Debería acabar ya.
-					</div>
+			<img src="Incoming/buddy_icon.png" alt="icon" class="avatar" />
+			<div class="sender">Jeroen van Meerendonk</div>
+			<div class="message">
+				<div class="time">16:35</div>
+				<div class="text">
+					Bien. Debería acabar ya.
 				</div>
-				<div id="insert"></div>
-				<div class="message">
-					<div class="time">16:35</div>
-					<div class="text">
-						Hola, este es un log de mentira.
-					</div>
-				</div>
-				<div id="insert"></div>
 			</div>
+			<div id="insert"></div>
+			<div class="message">
+				<div class="time">16:35</div>
+				<div class="text">
+					Hola, este es un log de mentira.
+				</div>
+			</div>
+			<div id="insert"></div>
 		</div>
 
 		<div class="block status offline">
@@ -137,19 +127,15 @@
 		</div>
 
 		<div class="block incoming">
-			<div class="avatar">
-				<div></div>
-			</div>
-			<div class="content">
-				<div class="sender">Jeroen van Meerendonk</div>
-				<div class="message">
-					<div class="time">16:35</div>
-					<div class="text">
-						Hola de nuevo.
-					</div>
+			<img src="Incoming/buddy_icon.png" alt="icon" class="avatar" />
+			<div class="sender">Jeroen van Meerendonk</div>
+			<div class="message">
+				<div class="time">16:35</div>
+				<div class="text">
+					Hola de nuevo.
 				</div>
-				<div id="insert"></div>
 			</div>
+			<div id="insert"></div>
 		</div>
 
 	</body>

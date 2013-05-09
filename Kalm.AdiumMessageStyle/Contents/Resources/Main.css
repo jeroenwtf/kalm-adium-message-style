@@ -8,27 +8,30 @@ body {
 .block {
 	overflow: hidden;
 	border-bottom: 1px solid #ededed;
-	padding: 10px;
+	padding: 15px 50px 15px 15px;
 }
 	.block:last-child {
 		border-bottom: 0px;
 	}
+	.block.showIcons {
+		padding-left: 63px;
+	}
+		.block.showIcons .avatar {
+			display: block;
+		}
 
 .context {
 	opacity: 0.4;
 }
 
-.avatar img {
+.avatar {
+	display: none;
 	width: 36px;
 	height: 36px;
 	background-color: #ededed;
 	float: left;
-	margin: 1px 0px;
+	margin: 1px 0 0 -48px;
 	border-radius: 3px;
-}
-
-.content {
-	margin-left: 48px;
 }
 
 .sender {
@@ -38,11 +41,20 @@ body {
 
 .time {
 	float: right;
+	margin-right: -40px;
 	font-size: 1em;
 	opacity: 0;
 }
 
-.message:hover .time,
+.text {
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.message:hover .time {
+	opacity: 0.35;
+}
 .status:hover .time {
 	opacity: .5;
 }
@@ -55,7 +67,6 @@ body {
 }
 .status .message {
 	font-style: italic;
-	margin-left: 48px;
 }
 
 	.status.away,
@@ -82,9 +93,9 @@ body {
 	}
 	.status.fileTransferStarted,
 	.status.fileTransferCompleted {
-		border-bottom: 1px solid #ededed;
 		margin-top: 0px;
-		color: #888888;
+		background: #444444;
+		color: #999999;
 	}
 		.status.fileTransferStarted .message,
 		.status.fileTransferCompleted .message {
