@@ -1,13 +1,10 @@
 body {
-	background-color: #ffffff;
-	color: #444444;
 	line-height: 1.5em;
 	margin: 0px;
 }
 
 .block {
 	overflow: hidden;
-	border-bottom: 1px solid #ededed;
 	padding: 15px 50px 15px 15px;
 }
 	.block:last-child {
@@ -28,7 +25,6 @@ body {
 	display: none;
 	width: 36px;
 	height: 36px;
-	background-color: #ededed;
 	float: left;
 	margin: 1px 0 0 -48px;
 	border-radius: 3px;
@@ -69,39 +65,11 @@ body {
 	font-style: italic;
 }
 
-	.status.away,
-	.status.away_message,
-	.status.return_away,
-	.status.idle,
-	.status.return_idle,
-	.status.date_separator,
-	.status.encryption {
-		background: #f3f3f3;
-		color: #999999;
-	}
-	.status.online,
-	.status.contact_joined {
-		background: #dbf3c3;
-		color: #89a76a;
-	}
-	.status.offline,
-	.status.contact_left,
-	.status.error,
-	.status.timed_out {
-		background: #ffd7e1;
-		color: #d88c83;
-	}
 	.status.fileTransferStarted,
 	.status.fileTransferCompleted {
 		margin-top: 0px;
-		background: #444444;
-		color: #999999;
 	}
 		.status.fileTransferStarted .message,
 		.status.fileTransferCompleted .message {
 			font-style: normal;
 		}
-	.status.purple {
-		background: #ead3f8;
-		color: #9b7ca7;
-	}

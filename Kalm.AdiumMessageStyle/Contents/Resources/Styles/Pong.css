@@ -1,0 +1,26 @@
+.incoming.block {
+	overflow: hidden;
+	padding: 15px 15px 15px 50px;
+}
+	.incoming.block.showIcons {
+		padding-right: 63px;
+	}
+
+.incoming .avatar {
+	display: none;
+	width: 36px;
+	height: 36px;
+	float: right;
+	margin: 1px -48px 0 0;
+	border-radius: 3px;
+}
+
+.incoming .sender,
+.incoming .text {
+	text-align: right;
+}
+
+.incoming .time {
+	float: left;
+	margin-left: -40px;
+}

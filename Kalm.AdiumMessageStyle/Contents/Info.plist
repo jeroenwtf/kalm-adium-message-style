@@ -18,5 +18,7 @@
 	<integer>13</integer>
 	<key>MessageViewVersion</key>
 	<integer>4</integer>
+	<key>DefaultVariant</key>
+	<string>Day</string>
 </dict>
 </plist>

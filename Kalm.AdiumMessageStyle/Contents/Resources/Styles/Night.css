@@ -1,0 +1,49 @@
+body {
+	background-color: #222222;
+	color: #666666;
+}
+
+.block {
+	border-bottom: 1px solid #333333;
+}
+
+.sender {
+	color: #999999;
+}
+
+	.status.away,
+	.status.away_message,
+	.status.return_away,
+	.status.idle,
+	.status.return_idle,
+	.status.date_separator,
+	.status.encryption {
+		background: #333333;
+		color: #666666;
+	}
+	.status.online,
+	.status.contact_joined {
+		background: #4a6140;
+		color: #89a76a;
+	}
+	.status.offline,
+	.status.contact_left,
+	.status.error,
+	.status.timed_out {
+		background: #5f2c31;
+		color: #d88c83;
+	}
+	.status.fileTransferStarted,
+	.status.fileTransferCompleted {
+		margin-top: 0px;
+		background: #444444;
+		color: #999999;
+	}
+		.status.fileTransferStarted .message,
+		.status.fileTransferCompleted .message {
+			font-style: normal;
+		}
+	.status.purple {
+		background: #ead3f8;
+		color: #9b7ca7;
+	}
