@@ -7,6 +7,10 @@ body {
 	border-bottom: 1px solid #ededed;
 }
 
+.text a {
+	color: #4097da;
+}
+
 .status.away,
 .status.away_message,
 .status.return_away,

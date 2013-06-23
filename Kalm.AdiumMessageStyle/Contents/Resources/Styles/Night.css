@@ -1,6 +1,6 @@
 body {
 	background-color: #222222;
-	color: #666666;
+	color: #777777;
 }
 
 .block {
@@ -8,7 +8,11 @@ body {
 }
 
 .sender {
-	color: #999999;
+	color: #aaaaaa;
+}
+
+.text a {
+	color: #467eaa;
 }
 
 	.status.away,
